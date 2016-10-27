@@ -97,9 +97,6 @@ public:     // General-use structs
     
     // Functions
     static float getColorDeltaE(rgbColor c1, rgbColor c2);
-    
-private:
-    // Functions
     static xyzColor rgbToXyz(rgbColor c);
     static CIELABColorSpace xyzToCIELAB(xyzColor c);
 };

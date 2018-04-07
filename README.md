@@ -6,6 +6,7 @@ A color utilities class that converts RGB to XYZ or CIELAB color spaces and meas
 * Constructors can take 8-bit RGB format or float format (0.0 to 1.0) as shown in the Instructions section below
 * **Calculations are quasimetric!**
 * The conversions calibrate the RGB color to 2° with illumination D65
+* Delta-e is calculated using CIE76, which may be validated using [this link](http://colormine.org/delta-e-calculator)
 
 
 ## Usage
@@ -42,6 +43,7 @@ float deltaE = getColorDeltaE(rgbColor c1, rgbColor c2);  // deltaE = 100.0
 - [ ] Overload the public functions for better compatibility 
 - [ ] Add more color spaces support *(such as CMYK and other variations of RGB)*
 - [ ] Overload arithmetic operators for each color space
+- [ ] Add an option to use dE2000
 
 **Feel free to make a pull request or request more features!**
 

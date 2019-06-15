@@ -12,7 +12,7 @@ A color utilities class that converts RGB to XYZ or CIELAB color spaces and meas
 ## Usage
 * ColorUtils mainly aims at calculating Delta-E for any two given RGB colors
 * Since the RGB color space is not *perceptually uniform*, a couple of conversions are needed in order to compare the colors, thus introducing the conversion functions to the class
-* This class is used in **Get Out: One Way** iOS app to randomly pick background/foreground colors from a given set so the text can be readable over the background
+
 
 ## Instructions
 ### Constructing Colors

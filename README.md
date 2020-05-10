@@ -47,8 +47,6 @@ float deltaE = getColorDeltaE(rgbColor c1, rgbColor c2);  // deltaE = 100.0
 
 **Feel free to make a pull request or request more features!**
 
-## Credit
-This class was written completely by Mohamed Shahawy
 
 ## License
 MIT
